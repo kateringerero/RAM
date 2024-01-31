@@ -1,0 +1,23 @@
+// Assuming you have UITextField/EditText fields for user input
+let studentID = textFieldStudentID.text!
+let firstName = textFieldFirstName.text!
+let lastName = textFieldLastName.text!
+let emailAddress = textFieldEmailAddress.text!
+let birthday = textFieldBirthday.text!
+let contactNo = textFieldContactNo.text!
+
+// Create a URL request
+guard let url = URL(string: "http://your-server.com/insert_data.php") else { return }
+var request = URLRequest(url: url)
+request.httpMethod = "POST"
+
+// Set the request body with the data
+let postString = "student_ID=\(studentID)&first_name=\(firstName)&last_name=\(lastName)&email_address=\(emailAddress)&birthday=\(birthday)&contact_no=\(contactNo)"
+request.httpBody = postString.data(using: .utf8)
+
+// Send the request
+let task = URLSession.shared.dataTask(with: request) { data, response, error in
+    guard let data = data, error == nil else { return }
+    // Handle the response from the server if needed
+}
+task.resume()

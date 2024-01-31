@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Registrar Appointment Manager</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Shivaa" />
+    <meta name="description" content="Shivaa" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- FavIcon Link -->
+	<link rel="icon" href="assets/images/ramfavicon.png" type="image/gif" sizes="16x16">
+
+	<!-- Bootstrap CSS Link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome Icon CSS Link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+	<!-- Slick Slider CSS Link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+
+	<!-- Wow Animation CSS Link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- Main Style CSS Link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="main">
+
+	<!-- Loder Start -->
+	<div class="loader-box">
+		<div class="loader-design">
+			<svg class="gegga">
+				<defs>
+					<filter id="gegga">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+						<feColorMatrix in="blur" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10" result="inreGegga" />
+						<feComposite in="SourceGraphic" in2="inreGegga" operator="atop" />
+					</filter>
+				</defs>
+			</svg>
+			<svg class="snurra" width="200" height="200" viewBox="0 0 200 200">
+				<defs>
+					<linearGradient id="linjärGradient">
+						<stop class="stopp1" offset="0" />
+						<stop class="stopp2" offset="1" />
+					</linearGradient>
+					<linearGradient y2="160" x2="160" y1="40" x1="40" gradientUnits="userSpaceOnUse" id="gradient" xlink:href="#linjärGradient" />
+				</defs>
+				<path class="halvan" d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64"
+				/>
+				<circle class="strecken" cx="100" cy="100" r="64" />
+			</svg>
+			<svg class="skugga" width="200" height="200" viewBox="0 0 200 200">
+				<path class="halvan" d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64"
+				/>
+				<circle class="strecken" cx="100" cy="100" r="64" />
+			</svg>
+		</div>
+	</div>
+	<!-- Loder End -->
+
+	<!-- Header Start -->
+	<header class="site-header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-12">
+					<div class="header-box">
+						<div class="site-branding">
+							<a href="home.php" title="Registrar Appointment Manager">
+								<img src="assets/images/ramlogosmall.png" alt="Logo">
+							</a>
+						</div>
+						<div class="header-menu">
+							<nav class="main-navigation">
+								<button class="toggle-button">
+									<span></span>
+									<span></span>
+									<span></span>
+								</button>
+								<ul class="menu">
+									<li><a href="home.php" title="Home">Home</a></li>
+									<li><a href="about-us.html" title="About Us">About Us</a></li>
+									<li class="active"><a href="services.html" title="Services">Services</a></li>
+									<li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+									<!-- <li class="sub-items">
+										<a href="javascript:void(0);" title="Pages">Pages</a>
+										<ul class="sub-menu">
+											<li><a href="pricing.html" title="Pricing">Pricing</a></li>
+											<li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+											<li><a href="portfolio-detail.html" title="Portfolio-detail">Portfolio-Detail</a></li>
+											<li><a href="team.html" title="Team">Team</a></li>
+											<li><a href="faq.html" title="FAQ">FAQ</a></li>
+										</ul>
+									</li> -->
+									<!-- <li class="sub-items">
+										<a href="javascript:void(0);" title="Blog">Blog</a>
+										<ul class="sub-menu">
+											<li><a href="blog-list.html" title="Blog List">Blog List</a></li>
+											<li><a href="blog-detail.html" title="Blog Detail">Blog Detail</a></li>
+										</ul>
+									</li> -->
+									<li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+								</ul>
+							</nav>
+							<div class="black-shadow"></div>
+						</div>
+						<div class="header-search">
+							<a href="contact.html" class="sec-btn" title="Get Started"><span>Get Started</span></a>
+							<!-- <div class="search-box">
+								<div class="search-icon">
+									<a href="javascript:void(0);" title="Search"><i class="fa fa-search" aria-hidden="true"></i></a>
+								</div>
+							</div> -->
+							<!-- <div class="extra-menu">
+								<div class="extra-menu-icon">
+									<a href="javascript:void(0);" title="Menu"><img src="assets/images/menu-icon.png" alt="Menu Icon" class="lazy"></a>
+								</div>
+								<div class="extra-menu-info">
+									<span class="close-extra-menu"></span>
+									<div class="extra-info-text">
+										<div class="extra-info-logo">
+											<img src="assets/images/logo.png" alt="Logo" class="lazy">
+										</div>
+										<div class="search-input">
+											<form>
+												<input type="text" name="search" class="form-input" placeholder="Search Here..." required>
+												<button type="submit" class="sec-btn"><span><i class="fa fa-search" aria-hidden="true"></i></span></button>
+											</form>
+										</div>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+									<div class="extra-info-text">
+										<h3 class="h3-title">Categories</h3>
+										<ul>
+											<li>Web Design</li>
+											<li>Idea & Research</li>
+											<li>Web Development</li>
+											<li>SEO & Marketing</li>
+											<li>Business Analytics</li>
+											<li>24x7 Support</li>
+										</ul>
+									</div>
+									<div class="extra-info-text">
+										<h3 class="h3-title">Contacts</h3>
+										<div class="footer-contact-box">
+											<div class="footer-contact-link">
+												<span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+												<a href="javascript:void(0);" title="1247/Plot No. 39, 15th Phase, Colony, Kukatpally, Hyderabad">1247/Plot No. 39, 15th Phase, Colony, Kukatpally, Hyderabad</a>
+											</div>
+										</div>
+										<div class="footer-contact-box">
+											<div class="footer-contact-link">
+												<span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+												<a href="javascript:void(0);" title="info@gmail.com">info@gmail.com</a>
+												<a href="javascript:void(0);" title="services@gmail.com">services@gmail.com</a>
+											</div>
+										</div>
+										<div class="social-icon">
+											<a href="javascript:void(0);" title="Follow on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" title="Follow on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+											<a href="javascript:void(0);" title="Follow on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="black-shadow"></div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+	<!-- Banner Start -->
+
+	<section class="main-banner inner-banner inner-banner2 back-img" id="main-banner" style="background-image: url('assets/images/services-banner.svg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="banner-content">
+						<h1 class="h1-title wow fadeup-animation" data-wow-delay="0.2s">Our Services</h1>
+						<div class="breadcrumb-box wow fadeup-animation" data-wow-delay="0.4s">
+							<ul>
+								<li><a href="index.html" title="Home">Home</a></li>
+								<li>Services</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Banner End -->
+	
+	<!-- Services Start -->
+	<section class="main-services page-services">
+		<div class="sec-shape">
+			<span class="shape shape1"><img src="assets/images/shape1.png" alt="Shape"></span>
+			<span class="shape shape2"><img src="assets/images/shape2.png" alt="Shape"></span>
+			<span class="shape shape3 "><img src="assets/images/shape2.png" alt="Shape"></span>
+			<span class="shape shape4"><img src="assets/images/shape1.png" alt="Shape"></span>
+		</div>
+		<div class="container">
+			<div class="services-list">
+				<div class="row justify-content-center">
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="service-box wow fadeup-animation" data-wow-delay="0.4s">
+							<div class="service-box-text">
+								<div class="service-img">
+									<img src="assets/images/web-design.png" alt="Web Design">
+								</div>
+								<h3 class="h3-title">Graphic Design</h3>
+								<p>Whether you intend to build a shiny new image for your business that blows your competitors away or capture more attention in the highly competitive marketplace, work with our graphic designers in the Philippines and it will happen.</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="service-box wow fadeup-animation" data-wow-delay="0.5s">
+							<div class="service-box-text">
+								<div class="service-img">
+									<img src="assets/images/idea-research.png" alt="Idea & Research">
+								</div>
+								<h3 class="h3-title">Idea & Research</h3>
+								<p>Nullam commodo venenatis purus non pellentesque.</p>
+							</div>
+						</div>
+					</div> -->
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="service-box wow fadeup-animation" data-wow-delay="0.6s">
+							<div class="service-box-text">
+								<div class="service-img">
+									<img src="assets/images/web-development.png" alt="Web Development">
+								</div>
+								<h3 class="h3-title">Web Development</h3>
+								<p>CreActive Force helps you assess, implement and develop web solutions adapted to your business. Our team has in-depth knowledge of a wide variety of web technologies and programming languages. We apply an Agile development method, allowing us to implement your project with confidence.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="service-box wow fadeup-animation" data-wow-delay="0.7s">
+							<div class="service-box-text">
+								<div class="service-img">
+									<img src="assets/images/seo-marketing.png" alt="SEO & Marketing">
+								</div>
+								<h3 class="h3-title">SEO & Marketing</h3>
+								<p>We provide thorough research and study in order to further give an in-depth report to our client. We make sure that we present accurate statistics in order to provide a customized proposal and strategy to our loyal clients. From start to finish, we walk the process with you until turnover, ensuring a complete customer experience!</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="service-box wow fadeup-animation" data-wow-delay="0.8s">
+							<div class="service-box-text">
+								<div class="service-img">
+									<img src="assets/images/business-analytics.png" alt="Business Analytics">
+								</div>
+								<h3 class="h3-title">Motion Graphics And Video</h3>
+								<p>Our graphic design studio creates dynamic multimedia materials such as Audio Visual Presentations (AVPs) and motion graphics ideal for explainer videos and in-store TV looping videos or menus.</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="service-box wow fadeup-animation" data-wow-delay="0.9s">
+							<div class="service-box-text">
+								<div class="service-img">
+									<img src="assets/images/support.png" alt="24x7 Support">
+								</div>
+								<h3 class="h3-title">24x7 Support</h3>
+								<p>Nullam commodo venenatis purus non pellentesque.</p>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services End -->
+
+	<!-- Experience Start -->
+	<section class="main-experience">
+		<div class="sec-shape">
+			<span class="shape shape1"><img src="assets/images/shape3.png" alt="Shape"></span>
+			<span class="shape shape2"><img src="assets/images/shape4.png" alt="Shape"></span>
+		</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 order-lg-1 order-2">
+					<div class="experience-skills wow right-animation" data-wow-delay="0.2s">
+						<div class="experience-skill-list" id="progress_bar">
+							<div class="experience-skill-bar-box">
+								<h5 class="h3-title experience-skill-bar-title">Designing</h5>
+								<div class="h3-title experience-skill-bar-percent"><span class="experience-counting" data-count="90">0</span>%</div>
+								<div class="experience-skill-bar" data-width="90%">
+									<div class="experience-skill-bar-inner"></div>
+								</div>
+							</div>
+							<div class="experience-skill-bar-box">
+								<h5 class="h3-title experience-skill-bar-title">Development</h5>
+								<div class="h3-title experience-skill-bar-percent"><span class="experience-counting" data-count="70">0</span>%</div>
+								<div class="experience-skill-bar" data-width="70%">
+									<div class="experience-skill-bar-inner"></div>
+								</div>
+							</div>
+							<div class="experience-skill-bar-box">
+								<h5 class="h3-title experience-skill-bar-title">Optimization</h5>
+								<div class="h3-title experience-skill-bar-percent"><span class="experience-counting" data-count="60">0</span>%</div>
+								<div class="experience-skill-bar" data-width="60%">
+									<div class="experience-skill-bar-inner"></div>
+								</div>
+							</div>
+							<div class="experience-skill-bar-box">
+								<h5 class="h3-title experience-skill-bar-title">Marketing</h5>
+								<div class="h3-title experience-skill-bar-percent"><span class="experience-counting" data-count="80">0</span>%</div>
+								<div class="experience-skill-bar" data-width="80%">
+									<div class="experience-skill-bar-inner"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 order-lg-2 order-1">
+					<div class="experience-content wow left-animation" data-wow-delay="0.2s">
+						<!-- <span class="sub-title">EXPERIENCE</span> -->
+						<h2 class="h2-title">Our offer</h2>
+						<p>We have established expertise in everything that makes brand work, and keep working for our clients. Here’s a brief overview of what we get up to, please do get in touch if you’d like to learn more.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Experience End -->
+
+	<!-- Portfolio Start -->
+	<section class="main-portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="center-title">
+						<span class="sub-title" id="portfolio">PORTFOLIO</span>
+						<h2 class="h2-title">Our Work Projects</h2>
+					</div>
+				</div>
+			</div>
+			<div class="main-project-slider wow fadeup-animation" data-wow-delay="0.4s">
+				<div class="row justify-content-center">
+					<div class="col-xl-8 col-lg-10">
+						<div class="project-slider-box">
+							<div class="project-slider">
+								<div class="project-box">
+									<div class="project-img back-img" style="background-image: url('assets/images/portfolio-img1.svg');"></div>
+									<div class="project-text">
+										<h3 class="h3-title">Branding</h3>
+										<p>Graphic, Illustration</p>
+										<a href="portfolio-branding.html" title="More Details" tabindex="-1"><i class="fa fa-plus" aria-hidden="true"></i></a>
+									</div>
+								</div>
+								<div class="project-box">
+									<div class="project-img back-img" style="background-image: url('assets/images/portfolio-img2.jpg');"></div>
+									<div class="project-text">
+										<h3 class="h3-title">Web Development</h3>
+										<p>Graphic, Illustration</p>
+										<a href="portfolio-webdev.html" title="More Details" tabindex="-1"><i class="fa fa-plus" aria-hidden="true"></i></a>
+									</div>
+								</div>
+								<div class="project-box">
+									<div class="project-img back-img" style="background-image: url('assets/images/portfolio-img3.svg');"></div>
+									<div class="project-text">
+										<h3 class="h3-title">Logo</h3>
+										<p>Graphic, Illustration</p>
+										<a href="portfolio-logo.html" title="More Details" tabindex="-1"><i class="fa fa-plus" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Portfolio End -->
+
+	<!-- Pricing Plan Start -->
+	<!-- <section class="main-pricing">
+		<div class="sec-shape">
+			<span class="shape shape1"><img src="assets/images/shape3.png" alt="Shape"></span>
+			<span class="shape shape2"><img src="assets/images/shape4.png" alt="Shape"></span>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="center-title">
+						<span class="sub-title" id="pricing">PRICING PLAN</span>
+						<h2 class="h2-title">Choose Our Plans</h2>
+					</div>
+					<div class="pricing-switch">
+				        <h5>Annually</h5>
+				        <label class="switch">
+				          <input type="checkbox" id="price_check" onclick="check();">
+				          <span class="slider round"></span>
+				        </label>
+				        <h5>Monthly</h5>
+				    </div>
+				</div>
+			</div>
+			<div class="pricing-list">
+				<div class="row pricing-slider">
+					<div class="col-lg-4">
+						<div class="pricing-box wow fadeup-animation" data-wow-delay="0.4s">
+							<div class="pricing-box-text">
+								<h3 class="h3-title">Individual</h3>
+								<h5 class="price-rate annually_text"><span>$15</span> Per Month</h5>
+								<h5 class="price-rate monthly_text"><span>$20</span> Per Month</h5>
+								<p>Nulla scelerisque elit aliquet, volutpat lorem ac.</p>
+								<div class="pricing-box-list">
+									<ul>
+										<li>Graphic Design</li>
+										<li>Web Design</li>
+										<li>UI/UX</li>
+										<li>HTML/CSS</li>
+										<li>SEO Marketing</li>
+									</ul>
+								</div>
+								<a href="pricing.html" class="sec-btn" title="Join Now"><span>Join Now</span></a>
+								<span class="free-trial">*Free Trial 14 Days</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="pricing-box wow fadeup-animation" data-wow-delay="0.5s">
+							<div class="pricing-box-text">
+								<h3 class="h3-title">Company</h3>
+								<h5 class="price-rate annually_text"><span>$25</span> Per Month</h5>
+								<h5 class="price-rate monthly_text"><span>$30</span> Per Month</h5>
+								<p>Nulla scelerisque elit aliquet, volutpat lorem ac.</p>
+								<div class="pricing-box-list">
+									<ul>
+										<li>Graphic Design</li>
+										<li>Web Design</li>
+										<li>UI/UX</li>
+										<li>HTML/CSS</li>
+										<li>SEO Marketing</li>
+									</ul>
+								</div>
+								<a href="pricing.html" class="sec-btn" title="Join Now"><span>Join Now</span></a>
+								<span class="free-trial">*Free Trial 14 Days</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="pricing-box wow fadeup-animation" data-wow-delay="0.6s">
+							<div class="pricing-box-text">
+								<h3 class="h3-title">Enterprise</h3>
+								<h5 class="price-rate annually_text"><span>$35</span> Per Month</h5>
+								<h5 class="price-rate monthly_text"><span>$40</span> Per Month</h5>
+								<p>Nulla scelerisque elit aliquet, volutpat lorem ac.</p>
+								<div class="pricing-box-list">
+									<ul>
+										<li>Graphic Design</li>
+										<li>Web Design</li>
+										<li>UI/UX</li>
+										<li>HTML/CSS</li>
+										<li>SEO Marketing</li>
+									</ul>
+								</div>
+								<a href="pricing.html" class="sec-btn" title="Join Now"><span>Join Now</span></a>
+								<span class="free-trial">*Free Trial 14 Days</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Pricing Plan End -->
+
+	<!-- Testimonial Start -->
+	<section class="main-testimonial">
+		<div class="sec-shape">
+			<span class="shape shape1"><img src="assets/images/shape1.png" alt="Shape"></span>
+			<span class="shape shape2"><img src="assets/images/shape2.png" alt="Shape"></span>
+			<span class="shape shape3 "><img src="assets/images/shape2.png" alt="Shape"></span>
+			<span class="shape shape4"><img src="assets/images/shape1.png" alt="Shape"></span>
+		</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 wow right-animation" data-wow-delay="0.4s">
+					<div class="testimonial-img-box">
+						<span class="testimonial-img-circle"></span>
+						<div class="testimonial-img">
+							<img width="501" height="662" src="assets/images/testimonial-img.svg" alt="Testimonial Image">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="testimonial-content wow left-animation" data-wow-delay="0.4s">
+						<span class="sub-title">TESTIMONIAL</span>
+						<h2 class="h2-title">See What Our Client Say’s</h2>
+						<div class="main-testimonial-slider">
+							<div class="testimonial-slider">
+								<div class="testimonial-box">
+									<div class="review-by">
+										<!-- <div class="review-by-img back-img" style="background-image: url('assets/images/testimonial-img1.jpg')"></div> -->
+										<div class="review-by-text">
+											<h3 class="h3-title">Mark Louie Pineda</h3>
+											<p>Manager</p>
+										</div>
+									</div>
+									<div class="testimonial-text">
+										<p>All deliverables were promptly delivered. From sales to project managers down to designers/developers. They’re very understanding and flexible as well when it comes to project requests/revisions.</p>
+									</div>
+								</div>
+								<div class="testimonial-box">
+									<div class="review-by">
+										<!-- <div class="review-by-img back-img" style="background-image: url('assets/images/testimonial-img1.jpg')"></div> -->
+										<div class="review-by-text">
+											<h3 class="h3-title">John Mark Timpog</h3>
+											<p>Designer</p>
+										</div>
+									</div>
+									<div class="testimonial-text">
+										<p>They are diligent, caring, totally understanding and absolutely reliable. They will never hesitate to bend over backwards for the greater good of any project.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Testimonial End -->
+
+	<!-- Get In Touch Start -->
+	<section class="main-contact inner-page-contact">
+		<div class="sec-shape">
+			<span class="shape shape1"><img src="assets/images/shape3.png" alt="Shape"></span>
+			<span class="shape shape2"><img src="assets/images/shape4.png" alt="Shape"></span>
+		</div>
+		<div class="container">
+			<div class="row align-items-center" id="contact">
+				<div class="col-lg-6 order-lg-1 order-2">
+					<div class="contact-form wow right-animation" data-wow-delay="0.4s">
+						<form class="dzForm" method="POST" action="assets/script/contact.php">
+							<div class="dzFormMsg"></div>
+							<input type="hidden" class="form-control" name="dzToDo" value="Contact" >
+							<input type="hidden" class="form-control" name="reCaptchaEnable" value="0" >
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-box">
+										<input name="dzName" type="text" required class="form-input" placeholder="First Name" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-box">
+										<input name="dzOther[last_name]" type="text" class="form-input" placeholder="Last Name" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-box">
+										<input type="text" name="dzEmail" class="form-input" placeholder="Email Address" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-box">
+										<input type="text" name="dzOther[phone]" class="form-input" placeholder="Phone No." required>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-box">
+										<textarea name="dzMessage" class="form-input" required placeholder="Message..."></textarea>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-box">
+										<button name="submit" type="submit" value="Submit" class="sec-btn"><span>Submit Now</span></button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6 order-lg-2 order-1">
+					<div class="contact-text wow left-animation" data-wow-delay="0.4s">
+						<span class="sub-title">GET IN TOUCH</span>
+						<h2 class="h2-title">Get Free Support Analysis</h2>
+						<div class="contact-link">
+							<p>Call us for fast support to this number.</p>
+							<a href="javascript:void(0);" title="+63 930 842 7452">+63 930 842 7452</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Get In Touch End -->
+
+	<!-- Get Started Start -->
+	<section class="main-get-started">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="get-started-box wow fadeup-animation" data-wow-delay="0.4s">
+						<div class="circle-shape"><span></span></div>
+						<div class="get-started-text">
+							<h4 class="h4-title">Ready To Get Started?</h4>
+							<p>Tell us your problem and get the services from you</p>
+						</div>
+						<a href="contact.html" class="sec-btn" title="Join Us Now"><span>Join Us Now</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Get Started End -->
+
+	<!-- Footer Start -->
+	<footer class="site-footer">
+		<div class="sec-shape">
+			<span class="shape shape1"><img src="assets/images/shape4.png" alt="Shape"></span>
+			<span class="shape shape2"><img src="assets/images/shape1.png" alt="Shape"></span>
+			<span class="shape shape3 "><img src="assets/images/shape2.png" alt="Shape"></span>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="footer-info">
+						<div class="footer-logo">
+							<a href="index.html" title="Shivaa">
+								<img src="assets/images/logo.svg" alt="Logo">
+							</a>
+						</div>
+						<div class="footer-contact-box">
+							<div class="footer-contact-link">
+								<span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+								<a href="javascript:void(0);" title="1303 Limasawa St. Lourdes Sur East Angeles City Pampanga Philippines">1303 Limasawa St. Lourdes Sur East Angeles City Pampanga Philippines</a>
+							</div>
+						</div>
+						<div class="footer-contact-box">
+							<div class="footer-contact-link">
+								<span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+								<a href="javascript:void(0);" title="info@creactiveforce.com">info@creactiveforce.com</a>
+								<a href="javascript:void(0);" title="services@creactiveforce.com">services@creactiveforce.com</a>
+							</div>
+						</div>
+						<div class="social-icon">
+							<a href="javascript:void(0);" title="Follow on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="javascript:void(0);" title="Follow on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="javascript:void(0);" title="Follow on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="our-links">
+						<h3 class="h3-title footer-title">Our Links</h3>
+						<ul>
+							<li><a href="index.html" title="Home">Home</a></li>
+							<li><a href="about-us.html" title="About Us">About Us</a></li>
+							<li><a href="services.html" title="Services">Services</a></li>
+							<!-- <li><a href="blog-list.html" title="Blog">Blog</a></li> -->
+							<li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+							<!-- <li><a href="faq.html" title="FAQ">FAQ</a></li>
+							<li><a href="team.html" title="Team">Team</a></li> -->
+							<!-- <li><a href="pricing.html" title="Pricing">Pricing</a></li> -->
+							<li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="our-services">
+						<h3 class="h3-title footer-title">Our Services</h3>
+						<ul>
+							<li><a href="services.html" title="Web Design">Graphic Design</a></li>
+							<li><a href="services.html" title="Web Development">Web Development</a></li>
+							<li><a href="services.html" title="SEO Marketing">SEO & Marketing</a></li>
+							<li><a href="services.html" title="Research &amp; Idea">Motion Graphics And Video</a></li>
+							<!-- <li><a href="services.html" title="Mobile App">Mobile App</a></li> -->
+							<!-- <li><a href="services.html" title="UI / UX">UI / UX</a></li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="free-consultation">
+						<span class="icon">
+							<img width="66" height="62" src="assets/images/message-icon.png" alt="Message Icon">
+						</span>
+						<p>Need Free Consultation?</p>
+						<h3 class="h3-title"><a href="contact.html" title="Get In Touch With Us">Get In Touch With Us</a></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="footer-last">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="copy-right">
+						<p>Copyright © 2021 <a href="" target="_blank">CreActive Force</a>. All rights reserved.</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="footer-last-link">
+						<ul>
+							<li><a href="javascript:void(0);" title="Privacy Policy">Privacy Policy</a></li>
+							<li><a href="javascript:void(0);" title="Terms Of Service">Terms Of Service</a></li>
+							<li><a href="javascript:void(0);" title="Legal">Legal</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer End -->
+
+	<!-- Scroll To Top Start -->
+	<a href="#main-banner" class="scroll-top" id="scroll-to-top">
+		<i class="fa fa-arrow-up" aria-hidden="true"></i>
+	</a>
+	<!-- Scroll To Top End-->
+
+	<!-- Bubbles Animation Start -->
+	<div class="bubbles_wrap">
+		<div class="bubble x1"></div>
+		<div class="bubble x2"></div>
+		<div class="bubble x3"></div>
+		<div class="bubble x4"></div>
+		<div class="bubble x5"></div>
+		<div class="bubble x6"></div>
+		<div class="bubble x7"></div>
+		<div class="bubble x8"></div>
+		<div class="bubble x9"></div>
+		<div class="bubble x10"></div>
+	</div>
+	<!-- Bubbles Animation End-->
+</div>
+
+
+<!-- Jquery JS Link -->
+<script src="assets/js/jquery.min.js"></script>
+
+<!-- Banner Moving Js Link -->
+<script src="assets/js/bg-moving.js"></script>
+
+<!-- Bootstrap JS Link -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+
+<!-- Slick Slider JS Link -->
+<script src="assets/js/slick.min.js"></script>	
+
+<!-- Portfolio Tabbing JS Link -->
+<script src="assets/js/jquery.mixitup.min.js"></script>	
+
+<!-- Wow Animation JS Link -->
+<script src="assets/js/wow.min.js"></script>
+
+<!-- Custom JS Link -->
+<script src="assets/js/dz.ajax.js"></script><!-- AJAX -->
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/custom-scroll-count.js"></script>
+
+</body>
+</html>
